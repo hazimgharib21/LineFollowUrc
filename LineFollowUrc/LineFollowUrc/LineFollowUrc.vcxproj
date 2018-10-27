@@ -80,7 +80,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir)..\LineFollowUrc;P:\Arduino\libraries;P:\Arduino\hardware\arduino\avr\libraries;C:\Users\Parasite\Documents\Arduino\libraries;P:\Arduino\hardware\arduino\avr\cores\arduino;P:\Arduino\hardware\arduino\avr\variants\eightanaloginputs;P:\Arduino\hardware\tools\avr\avr\include;P:\Arduino\hardware\tools\avr\avr\include\avr;P:\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include;P:\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;P:\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ProjectDir)__vm\.LineFollowUrc.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=10806;ARDUINO_AVR_NANO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=10806;ARDUINO_AVR_NANO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
