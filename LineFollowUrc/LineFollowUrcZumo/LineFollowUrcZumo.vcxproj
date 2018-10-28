@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
-    <RootNamespace>LineFollowUrc</RootNamespace>
-    <ProjectName>LineFollowUrc</ProjectName>
+    <ProjectGuid>{AF0071DA-53D2-494C-88C7-6534FFCA5812}</ProjectGuid>
+    <RootNamespace>LineFollowUrcZumo</RootNamespace>
+    <ProjectName>LineFollowUrcZumo</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -77,8 +77,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\LineFollowUrc;P:\Arduino\libraries;P:\Arduino\hardware\arduino\avr\libraries;C:\Users\Parasite\Documents\Arduino\libraries;P:\Arduino\hardware\arduino\avr\cores\arduino;P:\Arduino\hardware\arduino\avr\variants\standard;P:\Arduino\hardware\tools\avr\avr\include;P:\Arduino\hardware\tools\avr\avr\include\avr;P:\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include;P:\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;P:\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>$(ProjectDir)__vm\.LineFollowUrc.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\LineFollowUrcZumo;P:\Arduino\hardware\arduino\avr\libraries\Wire\src;C:\Users\Parasite\Documents\Arduino\libraries\ZumoShield;P:\Arduino\hardware\arduino\avr\libraries\Wire\src\utility;P:\Arduino\libraries;P:\Arduino\hardware\arduino\avr\libraries;C:\Users\Parasite\Documents\Arduino\libraries;P:\Arduino\hardware\arduino\avr\cores\arduino;P:\Arduino\hardware\arduino\avr\variants\standard;P:\Arduino\hardware\tools\avr\avr\include;P:\Arduino\hardware\tools\avr\avr\include\avr;P:\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include;P:\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;P:\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.LineFollowUrcZumo.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=10806;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -107,14 +107,19 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="LineFollowUrc.ino">
+    <None Include="LineFollowUrcZumo.ino">
       <FileType>CppCode</FileType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.LineFollowUrc.vsarduino.h" />
+    <ClInclude Include="__vm\.LineFollowUrcZumo.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties debug.remote.portname="" debug.view.FreeMemory="" debug.local.portname="" debug.view.AnalogPins="" debug.remote.portspeed="" arduino.upload.port="COM4" debug.view.DigitalPins="" debug.local.portspeed="" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
